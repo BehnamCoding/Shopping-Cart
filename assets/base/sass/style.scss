@@ -1,0 +1,66 @@
+#header {
+    .content {
+        .cart-area {
+            position: relative;
+            .box {
+                border: 1px solid #000;
+                position: absolute;
+                right: 0;
+                top: 130%;
+                transform: translateY(20px);
+                opacity: 0;
+                visibility: hidden;
+                padding: 10px;
+                width: auto;
+                height: auto;
+                border-radius: 10px;
+                background-color: #fff;
+                transition: 0.3s;
+                z-index: 99999;
+                .table {
+                    th {
+                        text-align: center;
+                        color: blue;
+                    }
+                    td {
+                        vertical-align: middle;
+                        text-align: center;
+                        img {
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+            &:hover .box {
+                transform: translateY(0);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+}
+
+#shop-main {
+    margin-top: 7rem;
+    .shop-content {
+        .container {
+            .row {
+                .pro-item {
+                    .card {
+                        border-radius: 6px;
+                        transition: 0.3s;
+                        .view {
+                            border-radius: 6px;
+                            img {
+                                transition: 0.3s;
+                            }
+                        }
+                        &:hover .view img {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

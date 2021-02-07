@@ -1,0 +1,68 @@
+#header .content .cart-area {
+  position: relative;
+}
+
+#header .content .cart-area .box {
+  border: 1px solid #000;
+  position: absolute;
+  right: 0;
+  top: 130%;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  opacity: 0;
+  visibility: hidden;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 99999;
+}
+
+#header .content .cart-area .box .table th {
+  text-align: center;
+  color: blue;
+}
+
+#header .content .cart-area .box .table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+#header .content .cart-area .box .table td img {
+  border-radius: 5px;
+}
+
+#header .content .cart-area:hover .box {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+#shop-main {
+  margin-top: 7rem;
+}
+
+#shop-main .shop-content .container .row .pro-item .card {
+  border-radius: 6px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#shop-main .shop-content .container .row .pro-item .card .view {
+  border-radius: 6px;
+}
+
+#shop-main .shop-content .container .row .pro-item .card .view img {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#shop-main .shop-content .container .row .pro-item .card:hover .view img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=style.css.map */
